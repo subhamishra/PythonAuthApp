@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Current Time</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/header.css' %}" />
+</head>
+<body>
+    <div class="main" >
+        <div class="header-fixed">
+            <div class="header-logo-container">
+                <img src="{% static 'images/app_logo.jpg' %}" class="logo" />
+                <span class="header-text">
+                    Demo Login App
+                </span>
+            </div>
+            <div class="menu" >
+                <a href="login" >
+                    Login
+                </a>
+            </div>
+        </div>
+        <!-- header code -->
+        {% block content %}
+        {% endblock %}
+        <!-- footer code -->
+    </div>
+</body>
+</html>

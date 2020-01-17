@@ -1,0 +1,14 @@
+{
+    "labels": {
+        "login": "Login",
+        "email_address": "Email Address",
+        "password": "Password",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "username": "User Name"
+    },
+    "messages": {
+        "required": "Can not be Blank.",
+        "invalid_email": "Please enter valid Email."
+    }
+}

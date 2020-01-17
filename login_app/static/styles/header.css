@@ -1,0 +1,43 @@
+.header-fixed {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+body {
+    margin: 0px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: indigo;
+}
+
+.main {
+    width: 100%;
+    height: 94vh;
+}
+
+.header-logo-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    width: calc(50% - 30px);
+    flex-direction: column;
+    align-items: flex-end;
+}
